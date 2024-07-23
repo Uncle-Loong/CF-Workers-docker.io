@@ -1,4 +1,4 @@
-[**第三方 DockerHub 镜像服务列表**](https://github.com/cmliu/CF-Workers-docker.io?tab=readme-ov-file#%E7%AC%AC%E4%B8%89%E6%96%B9-dockerhub-%E9%95%9C%E5%83%8F%E6%9C%8D%E5%8A%A1)
+[**第三方 DockerHub 镜像服务列表**](https://github.com/Uncle-Loong/CF-Workers-docker.io?tab=readme-ov-file#%E7%AC%AC%E4%B8%89%E6%96%B9-dockerhub-%E9%95%9C%E5%83%8F%E6%9C%8D%E5%8A%A1)
 
 # CF-Workers-docker.io：Docker仓库镜像代理工具
 
@@ -6,19 +6,19 @@
 
 ## 部署方式
 
-- **Workers** 部署：复制 [_worker.js](https://github.com/cmliu/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`即可
+- **Workers** 部署：复制 [_worker.js](https://github.com/Uncle-Loong/CF-Workers-docker.io/blob/main/_worker.js) 代码，`保存并部署`即可
 - **Pages** 部署：`Fork` 后 `连接GitHub` 一键部署即可
 
 ## 如何使用？
 
-例如您的Workers项目域名为：`docker.fxxk.dedyn.io`；
+例如您的Workers项目域名为：`docker.5iclub.cloudns.be`；
 
 ### 1.官方镜像路径前面加域名
 ```shell
-docker pull docker.fxxk.dedyn.io/stilleshan/frpc:latest
+docker pull docker.5iclub.cloudns.be/stilleshan/frpc:latest
 ```
 ```shell
-docker pull docker.fxxk.dedyn.io/library/nginx:stable-alpine3.19-perl
+docker pull docker.5iclub.cloudns.be/library/nginx:stable-alpine3.19-perl
 ```
 
 ### 2.一键设置镜像加速
@@ -37,7 +37,7 @@ sudo systemctl restart docker
 ## 变量说明
 | 变量名 | 示例 | 必填 | 备注 | 
 |--|--|--|--|
-| URL302 | https://t.me/CMLiussss |❌| 主页302跳转 |
+| URL302 | https://t.me/Crap996 |❌| 主页302跳转 |
 | URL | https://www.baidu.com/ |❌| 主页伪装(设为`nginx`则伪装为nginx默认页面) |
 | UA | netcraft |❌| 支持多元素, 元素之间使用空格或换行作间隔 |
 
